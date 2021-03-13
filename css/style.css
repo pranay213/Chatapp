@@ -1,1 +1,49 @@
+body{
 
+    background-image: url(https://i2.wp.com/onaircode.com/wp-content/uploads/2017/11/Tesselation-Transition.jpg?fit=948%2C527&ssl=1);
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.btn-primary{
+    background-color: #1877F2;
+}
+.col-md-6 img{
+   
+    width: 300px;
+    border: 1px solid #1877F2;
+    border-radius: 25px;
+   
+}
+.col-md-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-md-6 .btn-primary
+{
+    margin-left: 15px;
+}
+.btn-primary:hover,.btn-primary:focus{
+    background-color: #90befa;
+    border: hidden;
+    outline-style: hidden;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.otp,.container.password{
+    margin-top: 0px;
+    width: 400px;
+}
